@@ -1,0 +1,36 @@
+/* Forgive.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.forgive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the image container height to the full viewport height */
+}
+
+.forgive-image {
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  max-height: 100%; /* Ensure the image does not exceed the container's height */
+  width: auto; /* Allow the image to adjust its width based on its aspect ratio */
+  height: auto; /* Allow the image to adjust its height based on its aspect ratio */
+}
+
+.button-image {
+  position: fixed;
+  bottom: 0;
+  background-color: #4caf50; /* Set the background color */
+  color: white; /* Set the text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.button-image:hover {
+  background-color: #45a049; /* Darken the background color on hover */
+}
